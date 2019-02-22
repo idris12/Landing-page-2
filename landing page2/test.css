@@ -1,0 +1,74 @@
+
+
+body{
+	 font-family: 'Merienda', cursive;
+	background-image:url("https://cdn.pixabay.com/photo/2017/08/07/03/52/architecture-2599496_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.header {
+   display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+
+h2{
+	color:white;
+	margin-left: 1%;
+
+}
+
+ul{
+
+	padding:inherit;
+}
+
+li{
+	color: white;
+	list-style-type: none;
+	display:inline;
+	padding: 0 4%;
+	margin-left: 20px;
+}
+
+#dot{
+	visibility: hidden;
+}
+
+h1{
+	font-size: 65px;
+	margin-top:10%; 
+	text-align: center;
+	color: white;
+}
+
+#color{
+	color: yellow;
+}
+
+#color2{
+	color: yellow;
+	font-size: 30px;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+button {
+	color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid white;
+
+    padding: 10px;
+    border-radius: 25px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
